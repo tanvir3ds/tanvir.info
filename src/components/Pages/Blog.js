@@ -10,26 +10,34 @@ class Blog extends Component {
             <h2>Blog</h2>
           </div>
 
-          
-
           <div className="blog">
-            <a href="blog-single.html">
-              <img src={img_blog} className="card-img-top" alt="some value"></img>
+            <img src={img_blog} className="card-img-top" alt="some value"></img>
 
-              <div className="card-body">
-                <h3>Lorem Ipsum</h3>
-                <p className="card-text text-justify">
-                  
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took a galley of type
-                  and scrambled it to make a type specimen book. It has survived
-                  not only five centuries, but also the leap into electronic
-                  typesetting, remaining essentially unchanged. It was
-                  popularised in the 1960s with the release of Letraset sheets
-                </p>
-               
-              </div>
-            </a>
+            <div className="card-body">
+              <h3> facebook এর ওপরে ডিপেন্ড না হয়ে আমারা নিজেরাই একটা প্লাটফর্ম
+                রেডি করতে পারি।</h3>
+              <p className="card-text text-justify">
+                
+              </p>
+
+              <p className="card-text text-justify">
+              #১. ওয়েবসাইট একটা ইউজার ফেন্ডলি ওয়েবসাইট থাকলে
+                কাষ্টমার খুব সহজেই নিজের প্রোয়োজন অনুযায়ী কেনা কাটা করতে পারবে।
+              
+              </p>
+
+              <p className="card-text text-justify">  #২. মোবাইল আপ্লিকেশন মোবাইল আপ্লিকেশন এর মাধ্যমে পুশ নোটিফিকেশন,
+                ডিসকাউন্ট, বিভিন্ন প্রমোশনাল অফার খুব সহজেই পাঠানো সম্ভব।
+                তাছাড়াও একটা মোবাইল আপ্লিকেশন এর মাধ্যমে রেগুলার সেল করা সম্ভব।
+              </p>
+              <p className="card-text text-justify"> #৩. SEO শুধু ওয়েব সাইট ও আ্যাপ থাকলেই হবে না, নিয়মিত কন্টেন তৈরি
+                করে হবে, seo friendly পোস্ট আপডেট করতে হবে। </p>
+              <p className="card-text text-justify"> #৪. Keyword Research
+                আমরা যা লেখে সার্চ করি তাই হলো keyword , পোস্ট আপডেট করার সময়
+                প্রোডাক্ট অনুযায়ী keyword research করতে হবে।</p>
+
+             
+            </div>
           </div>
         </div>
       </>
